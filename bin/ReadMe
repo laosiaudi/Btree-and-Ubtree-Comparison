@@ -1,0 +1,12 @@
+--------------------------程序运行说明----------------------------
+
+dbtest1  :  为方法一可执行文件，
+
+运行方法： ./dbtest1 [path] [path]为lineitem.tbl及query.in所在绝对路径
+示例： ./dbtest1 /home/laosi/    （将会读入此路径下lineitem.tbl及query.in及生成一个query.out）生成索引名为index1,index2
+-----------
+dbtest2  :  为方法二可执行文件，
+
+运行方法： ./dbtest2 [path] [path]为lineitem.tbl及query.in所在绝对路径
+示例： ./dbtest2 /home/laosi/    （将会读入此路径下lineitem.tbl及query.in及生成一个query.out）,生成索引名为UIndex
+--------------------------------------------------------------------
