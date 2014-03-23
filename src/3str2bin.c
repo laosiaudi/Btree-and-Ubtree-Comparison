@@ -1,6 +1,8 @@
 #include<stdio.h>
 #include<string.h>
 
+// author: yakiang
+
 //数字转二进制
 void int2bin_(int num, char* bin4, int len) 
 {
